@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Jaką drukarką jesteś?</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="quiz-container">
+    <div class="title">Jaką drukarką jesteś?</div>
+    <div id="question" class="question"></div>
+    <label class="option">
+        <input type="radio" name="option" value="1"/>
+        <span class="option1"></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option" value="2"/>
+        <span class="option2"></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option" value="3"/>
+        <span class="option3"></span>
+    </label>
+    <!-- Buttons -->
+    <div class="controls">
+        <button class="previous">Poprzednie pytanie</button>
+        <button class="next">Następne pytanie</button>
+    </div>
+</div>
+
+<div class="result" style="display: none"> </div>
+
+
+<script src="js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/emojis.js"> </script>
+
+</body>
+</html>
