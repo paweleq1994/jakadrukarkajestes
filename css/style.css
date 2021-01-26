@@ -361,6 +361,7 @@ button:focus {
 #parent {
     height: 100vh;
     width: 100vh;
+    dispplay: flex;
 }
 
 #parent > img{
